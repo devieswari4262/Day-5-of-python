@@ -7,7 +7,7 @@
 #  test case2:
 #input:6
 #output:370
-#  test case2:
+#  test case3:
 #input:six
 #output:error
 
@@ -23,3 +23,10 @@ elif hours<5:
 else:
     fee=(2*100)+(3*50)+(hours-5)*20
     print(fee)
+
+o/p:Enter the number of hours:2
+200
+Enter the number of hours:6
+370
+Enter the number of hours:six
+error

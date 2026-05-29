@@ -26,6 +26,8 @@ elif Month == 9:
     print(12000)
 elif Month == 12:
     print(15000)
+else:
+    print("error")
 
 o/p: Enter the month:3
 5000
@@ -33,5 +35,4 @@ Enter the month:5
 9000
 Enter the month:-1
 invalid input
-else:
-    print("error")
+
